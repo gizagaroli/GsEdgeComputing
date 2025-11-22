@@ -120,7 +120,7 @@ void loop() {
   
     if (currentTime - feedbackStartTime >= FEEDBACK_DURACAO_MS) {
       
-      // 3. Reseta o sistema
+      // reseta o sistema
       Serial.println("Desafio Reiniciado. Pressione o botão para iniciar.");
       digitalWrite(ledVermelho, LOW);
       digitalWrite(ledVerde, LOW);
